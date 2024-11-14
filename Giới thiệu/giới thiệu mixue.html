@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Mixue">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="../Menu 2/style1.css">
+    <title>Giới thiệu</title>
+    <style>
+        .flex-container {
+            max-width: 100%;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            margin: 50px 0 50px 0;
+        }
+
+        .text-image {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            max-width: 1000px;
+        }
+
+        .text-image:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+            max-width: 800px;
+            text-align: left;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(104, 104, 104, 0.116);
+            border: 5px solid rgb(247,4,0);
+        }
+
+        .text h2 {
+            font-size: 23px;
+            margin-bottom: 10px;
+            color: #f70400;
+            text-align: center;
+        }
+        .text p {
+            font-size: 1em;
+            line-height: 1.6em;
+            color: #333;
+            text-align: justify;
+        }
+
+        .image {
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .image:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+    </style>
+</head> 
+<body>
+    <!--Header Section-->
+    <header id="top">
+        <div class="logo">
+            <a href="../Trang chủ.html" data-medium="Logo" title="Mixue Logo" onclick="trackingLogoHome('logo-header', this.href)" data-itm-source="#vn_source=Home&amp;vn_campaign=Header&amp;vn_medium=Logo&amp;vn_term=Desktop" data-itm-added="1">
+                <img src="../img/logo_mixue.webp" alt="Mixue Logo">
+            </a>
+        </div>
+        <div class="nav-links">
+            <nav>
+                <ul>
+                    <li><a href="../Trang chủ.html">Trang Chủ</a></li>
+                    <li><a href="../Menu 2/menu.html">Menu Mixue</a></li>
+                    <li><a href="./Giới thiệu/giới thiệu mixue.html">Giới Thiệu </a></li>
+                    <li><a href="../Liên hệ/liên hệ.html">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+<!-- Main Banner -->
+<section class="menu-banner">
+    <div class="intro-section">
+        <div class="intro-text"><h1>GIỚI THIỆU</h1></div>
+    </div>
+
+</section>
+
+<!--Nội dung trang-->   
+<section class="flex-container">
+    <div class="content">
+        <div class="text-image">
+            <div class="text">
+                <h2><b>Mixue Việt Nam</b></h2>
+                <p>Mixue là một thương hiệu trà sữa xuất phát từ Đài Loan. Hiện nay đã mở rộng thị trường tới nhiều quốc gia trên thế giới, bao gồm <strong>Trung Quốc, Hàn Quốc, Singapore, Malaysia, Mỹ, Canada và Việt Nam</strong>. Với chất lượng và hương vị tuyệt vời, Mixue nhanh chóng trở thành một thương hiệu nổi tiếng trong ngành công nghiệp kem và trà sữa trên toàn thế giới.</p>
+            </div>
+            <img src="./ch mixue.jpg" alt="Mixue Việt Nam" class="image">
+        </div>
+        <div class="text-image">
+            <div class="text">
+                <h2><b>Cam kết</b></h2>
+                <p>Các sản phẩm của Mixue được làm từ <strong>nguyên liệu tươi sạch, chất lượng cao và đảm bảo an toàn</strong> cho sức khỏe cho người sử dụng. Từ trà sữa truyền thống, trà sữa trân châu, trà sữa trái cây đến kem trà sữa, kem và nhiều loại thức uống khác, Mixue luôn cập nhật và nâng cao chất lượng sản phẩm để đáp ứng sự yêu thích và sự tin tưởng của khách hàng.</p>
+            </div>
+            <img src="./cam_kết_mixue.jpg" alt="Mission Image" class="image">
+        </div>
+        <div class="text-image">
+            <div class="text">
+                <h2><b>Mục tiêu</b></h2>
+                <p>Mixue không chỉ đáp ứng nhu cầu uống đồ ngon của giới trẻ mà còn tạo ra một không gian xanh mát mới, hiện đại và thư giãn ngay trong chính cửa hàng. Với mục tiêu trở thành một trong những <strong>thương hiệu trà sữa hàng đầu tại Việt Nam và trên toàn cầu</strong>, Mixue luôn nỗ lực phát triển và mở rộng quy mô kinh doanh, cùng với việc nâng cao chất lượng sản phẩm và dịch vụ, nhằm mang đến cho khách hàng những trải nghiệm đẳng cấp và tốt nhất.</p>
+            </div>
+            <img src="./mục_tiêu_mixue.png" alt="Mission Image" class="image">
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <img src="../img/footer_logo.png" alt="Mixue Logo" class="footer-logo">
+        </div>
+        <div class="footer-column-col-6">
+            <h3>Mixue</h3>
+            <div class="p2 clearfix">
+                <div class="icon_layout">
+                    <img src="../img/icon_địa chỉ.png" style="width: 20px; height: auto;"/>
+                </div>                
+                <p>Địa chỉ: số 159 phố Giảng Võ, Phường Cát Linh, Quận Ðống Ða, Thành phố Hà Nội, Việt Nam</p>
+            </div>
+            <div class="p2 clearfix">
+                <div class="icon_layout">
+                    <img src="../img/icon_email.png" style="width: 30px; height: auto;"/>
+                </div> 
+                <p>Email: liuquanjin@zzmxbc.com</p>
+            </div>
+        </div>
+        <div class="footer-column-col-3">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="../Menu 2/menu.html">Kem và Sundae</a></li>
+                <li><a href="../Menu 2/tra_hoa_qua.html">Trà hoa quả</a></li>
+                <li><a href="../Menu 2/tra_sua.html">Trà sữa</a></li>
+                <li><a href="../Menu 2/do_an_vat.html">Đồ ăn vặt</a></li>
+                <li><a href="../Menu 2/do_luu_niem.html">Đồ lưu niệm</a></li>
+            </ul>
+        </div>
+        <div class="footer-column-col-3">
+            <h3>Về chúng tôi</h3>
+            <ul>
+                <li><a href="../Trang chủ.html">Trang Chủ</a></li>
+                <li><a href="../Menu 2/menu.html">Menu Mixue</a></li>
+                <li><a href="./Giới thiệu/giới thiệu mixue.html">Giới Thiệu </a></li>
+                <li><a href="../Liên hệ/liên hệ.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+<hr>
+    <div class="footer-bottom">
+        <p style="text-align: center;">Copyright © 2024 - Mixue Việt Nam</p>
+    </div>    
+</footer>
+
+<div id="back-to-top" onclick="scrollToTop()">
+    <div class="mui_ten"></div>
+</div>
+<script>
+    // Hiển thị nút khi kéo xuống 100px
+    window.onscroll = function() { toggleBackToTopButton(); };
+    
+    function toggleBackToTopButton() {
+        const button = document.getElementById("back-to-top");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    }
+    
+    // Cuộn lên đầu trang khi nhấn vào nút
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+</body>
+</html>
